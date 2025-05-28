@@ -1,0 +1,68 @@
+# Node.js
+#
+# This file is for Node.js projects. It should be placed in the root of your
+# project and committed to Git.
+
+# Dependency directories
+node_modules/
+dist/
+build/
+.cache/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime files
+.npm/
+.nyc_output/
+.temp/
+.tmp/
+tmp/
+temp/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env.*
+
+# Editor directories and files
+.idea/             # IntelliJ IDEA
+.vscode/           # VS Code
+*.iml              # IntelliJ IDEA
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# npm package manager files
+package-lock.json  # If you prefer yarn.lock
+.npmrc             # npm configuration file
+
+# Yarn package manager files
+yarn.lock          # If you prefer package-lock.json
+.yarn/
+.pnp.*
+
+# TypeScript files (if applicable)
+*.tsbuildinfo
+
+# Test and coverage reports
+coverage/
+.nyc_output/
+
+# IDE specific files
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+.dockerignore
+
+# GraphQL specific
+# If you generate client-side types or schema files
+src/generated/

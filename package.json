@@ -1,0 +1,18 @@
+{
+  "name": "luna.gameworks.solis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lunalabs",
+  "license": "ISC",
+  "description": "A graphql server for serving interface data.",
+  "dependencies": {
+    "@apollo/server": "^4.12.1",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0"
+  }
+}
