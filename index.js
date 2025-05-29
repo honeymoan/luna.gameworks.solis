@@ -7,7 +7,7 @@ import http from 'http';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 
-import { typeDefs, resolvers } from './src/schema.js';
+import { typeDefs, resolvers } from './schema.js';
 
 async function apollo() {
     const app = express();
@@ -36,3 +36,5 @@ apollo().catch((error) => {
     console.error('Error starting Apollo Server:', error);
     process.exit(1);
 });
+
+// import gql from express-graphql;

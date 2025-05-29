@@ -2,6 +2,7 @@
   "name": "luna.gameworks.solis",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
@@ -12,7 +13,10 @@
   "description": "A graphql server for serving interface data.",
   "dependencies": {
     "@apollo/server": "^4.12.1",
+    "@apollo/subgraph": "^2.10.2",
     "express": "^5.1.0",
-    "graphql": "^16.11.0"
+    "graphql": "^16.11.0",
+    "graphql-tag": "^2.12.6",
+    "winston": "^3.17.0"
   }
 }
